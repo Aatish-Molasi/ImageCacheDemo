@@ -1,0 +1,14 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "0c50e2401e886317aed51220e89fa60e"
+build_time: [1544264760, 745930000]
+inputs:
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Utils/PasteboardUtil.swift": !dirty [1495967029, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Models/Catergory.swift": !dirty [1544264725, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Constants/ImageLoaderConstants.swift": !dirty [1544264735, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Views/CustomViews/PinCell.swift": !dirty [1544262873, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Views/ViewControllers/PasteboardImagesViewController.swift": !dirty [1544264749, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Models/Pin.swift": !dirty [1544262848, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/ViewController.swift": !dirty [1544262053, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/AppDelegate.swift": !dirty [1544260321, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Networking/PinDetailsService.swift": !dirty [1544264687, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Models/User.swift": !dirty [1544264760, 0]

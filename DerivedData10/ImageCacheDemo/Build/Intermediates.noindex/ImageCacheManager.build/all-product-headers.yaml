@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/DerivedData10/ImageCacheDemo/Build/Products/Debug-iphonesimulator/ImageCacheManager.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ImageCacheManager-Swift.h",
+          'external-contents': "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/DerivedData10/ImageCacheDemo/Build/Products/Debug-iphonesimulator/ImageCacheManager.framework/Headers/ImageCacheManager-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ImageCacheManager.h",
+          'external-contents': "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/ImageCacheManager.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/DerivedData10/ImageCacheDemo/Build/Products/Debug-iphonesimulator/ImageCacheManager.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/DerivedData10/ImageCacheDemo/Build/Intermediates.noindex/ImageCacheManager.build/Debug-iphonesimulator/ImageCacheManager.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

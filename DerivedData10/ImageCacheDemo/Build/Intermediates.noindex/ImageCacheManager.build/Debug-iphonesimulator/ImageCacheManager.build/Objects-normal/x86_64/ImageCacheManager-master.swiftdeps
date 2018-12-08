@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "7f067cd2efd30ba27f75194575cef6bc"
+build_time: [1544262052, 421716000]
+inputs:
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/ImageCache.swift": [1544261609, 0]
