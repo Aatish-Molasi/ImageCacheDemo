@@ -13,7 +13,6 @@ depends-top-level:
 - !private "BooleanLiteralType"
 - !private "Data"
 - "NSCoder"
-- !private "NSError"
 - !private "NSLayoutConstraint"
 - "Pin"
 - !private "PinAPIConstants"
@@ -268,7 +267,6 @@ depends-member:
 - !private ["So16NSMutableCopyingP", "init"]
 - !private ["So8NSObjectC", "Data"]
 - ["So8NSObjectC", "NSCoder"]
-- !private ["So8NSObjectC", "NSError"]
 - !private ["So8NSObjectC", "NSLayoutConstraint"]
 - ["So8NSObjectC", "Pin"]
 - !private ["So8NSObjectC", "PinAPIConstants"]
@@ -333,7 +331,6 @@ depends-member:
 - !private ["14ImageCacheDemo15PinAPIConstantsV", "ImageTypes"]
 - !private ["14ImageCacheDemo7PinCellC", "Data"]
 - ["14ImageCacheDemo7PinCellC", "NSCoder"]
-- !private ["14ImageCacheDemo7PinCellC", "NSError"]
 - !private ["14ImageCacheDemo7PinCellC", "NSLayoutConstraint"]
 - ["14ImageCacheDemo7PinCellC", "Pin"]
 - !private ["14ImageCacheDemo7PinCellC", "PinAPIConstants"]
@@ -614,7 +611,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So11UIResponderC", "Data"]
 - ["So11UIResponderC", "NSCoder"]
-- !private ["So11UIResponderC", "NSError"]
 - !private ["So11UIResponderC", "NSLayoutConstraint"]
 - ["So11UIResponderC", "Pin"]
 - !private ["So11UIResponderC", "PinAPIConstants"]
@@ -671,7 +667,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So15UITableViewCellC", "Data"]
 - ["So15UITableViewCellC", "NSCoder"]
-- !private ["So15UITableViewCellC", "NSError"]
 - !private ["So15UITableViewCellC", "NSLayoutConstraint"]
 - ["So15UITableViewCellC", "Pin"]
 - !private ["So15UITableViewCellC", "PinAPIConstants"]
@@ -721,7 +716,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So6UIViewC", "Data"]
 - ["So6UIViewC", "NSCoder"]
-- !private ["So6UIViewC", "NSError"]
 - !private ["So6UIViewC", "NSLayoutConstraint"]
 - ["So6UIViewC", "Pin"]
 - !private ["So6UIViewC", "PinAPIConstants"]

@@ -172,6 +172,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
+@import ObjectiveC;
+@import Foundation;
+@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -183,5 +186,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wnullability"
 
 SWIFT_MODULE_NAMESPACE_PUSH("ImageCacheManager")
+
+SWIFT_CLASS("_TtC17ImageCacheManager15DownloadManager")
+@interface DownloadManager : NSObject <NSURLSessionDelegate>
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+@end
+
+
+
 SWIFT_MODULE_NAMESPACE_POP
 #pragma clang diagnostic pop

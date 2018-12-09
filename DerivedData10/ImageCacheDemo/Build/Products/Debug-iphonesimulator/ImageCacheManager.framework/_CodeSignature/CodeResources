@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ImageCacheManager-Swift.h</key>
 		<data>
-		yfjJDoCwIr5+Ui6MJgdtAD3YnkA=
+		IPtX9AFGEFTG0eP8oyafvLBollg=
 		</data>
 		<key>Headers/ImageCacheManager.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/ImageCacheManager.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		b6TEB6cvHj6ew0gd65QM0G6eqKM=
+		0dDhLwUaNc7kOG8fg9EYhQl5Pgw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yfjJDoCwIr5+Ui6MJgdtAD3YnkA=
+			IPtX9AFGEFTG0eP8oyafvLBollg=
 			</data>
 			<key>hash2</key>
 			<data>
-			eQTu1l7IXhLjXTGIxa/1wcjCaU9hmgQKcnJDPFOd0zs=
+			oXs+R7dNEETBeDP/3E9T5HiCnfpEYVPegLiRNvrRv+g=
 			</data>
 		</dict>
 		<key>Headers/ImageCacheManager.h</key>
@@ -68,11 +68,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b6TEB6cvHj6ew0gd65QM0G6eqKM=
+			0dDhLwUaNc7kOG8fg9EYhQl5Pgw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hkeq4ESsC7k6WhaN0wP9FRPXuSr6HeopXJHR8UTINEE=
+			NV08opjO0lD3EFt1HqxIJzFrB2FVInNRL8A13b2avzk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

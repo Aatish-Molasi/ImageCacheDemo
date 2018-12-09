@@ -1,15 +1,10 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "95fce9948fd37d6fca1552f2de74ecce"
-build_time: [1544262013, 425022000]
+build_time: [1544361211, 192750000]
 inputs:
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Views/CustomViews/PinCell.swift": !dirty [1544258412, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Models/Pin.swift": !dirty [1495973212, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Networking/AsyncImageLoaderAPI.swift": !dirty [1495975944, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Models/User.swift": !dirty [1495969323, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Views/ViewControllers/PasteboardImagesViewController.swift": !dirty [1496080334, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Utils/PasteboardUtil.swift": !dirty [1495967029, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Networking/PinDetailsService.swift": !dirty [1495983074, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Networking/AsyncImageLoaderServiceProvider.swift": !dirty [1544258360, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Constants/ImageLoaderConstants.swift": !dirty [1496069006, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/Models/Catergory.swift": !dirty [1495969765, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/ImageCache.swift": !dirty [1544261609, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Constants/ImageCacheConstants.swift": [1496078871, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/ImageCache.swift": [1544261609, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Managers/ContentCacheManager.swift": [1496077643, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Catergoeries/UImageViewCatergory.swift": !dirty [1496077637, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Managers/DownloadManager.swift": !dirty [1544361198, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Managers/DownloadOperation.swift": [9223372036, 854775807]
