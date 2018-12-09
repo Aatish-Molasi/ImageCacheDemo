@@ -1,10 +1,10 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "95fce9948fd37d6fca1552f2de74ecce"
-build_time: [1544376142, 230375000]
+build_time: [1544380143, 127466000]
 inputs:
   "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Constants/ImageCacheConstants.swift": [1496078871, 0]
   "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/ImageCache.swift": [1544261609, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Managers/ContentCacheManager.swift": [1496077643, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Catergoeries/UImageViewCatergory.swift": !dirty [1544374789, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Managers/SharedDownloadManager.swift": !dirty [1544376133, 0]
-  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Managers/DownloadManager.swift": !dirty [1544375547, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Managers/ContentCacheManager.swift": [1544378439, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Catergoeries/UImageViewCatergory.swift": [1544380142, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Managers/SharedDownloadManager.swift": [1544379779, 0]
+  "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheManager/ImageCacheManager/Managers/DownloadManager.swift": [1544379787, 0]

@@ -64,6 +64,9 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
                 return
             }
             self.pins = pins
+            self.pins.append(contentsOf: pins)
+            self.pins.append(contentsOf: pins)
+            self.pins.append(contentsOf: pins)
             DispatchQueue.main.async {
                 self.pinImagesTable.reloadData()
             }
