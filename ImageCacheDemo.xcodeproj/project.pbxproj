@@ -19,6 +19,7 @@
 		26500B9B21BD1D5E003DECB9 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7921BBC949003DECB9 /* Pin.swift */; };
 		26500B9D21BD1D61003DECB9 /* Catergory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7821BBC949003DECB9 /* Catergory.swift */; };
 		26500B9E21BD1D63003DECB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7A21BBC949003DECB9 /* User.swift */; };
+		26500BA121BD2031003DECB9 /* PinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500BA021BD2031003DECB9 /* PinManager.swift */; };
 		26E7E78521BBC26100ABCC35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E7E78421BBC26100ABCC35 /* AppDelegate.swift */; };
 		26E7E78721BBC26100ABCC35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E7E78621BBC26100ABCC35 /* ViewController.swift */; };
 		26E7E78A21BBC26100ABCC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E7E78821BBC26100ABCC35 /* Main.storyboard */; };
@@ -92,6 +93,7 @@
 		26500B8521BBC949003DECB9 /* PasteboardImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteboardImagesViewController.swift; sourceTree = "<group>"; };
 		26500B9621BBCE0B003DECB9 /* PasteboardImagesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasteboardImagesViewController.xib; sourceTree = "<group>"; };
 		26500B9821BBDD5B003DECB9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		26500BA021BD2031003DECB9 /* PinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinManager.swift; sourceTree = "<group>"; };
 		26E7E78121BBC26100ABCC35 /* ImageCacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E7E78421BBC26100ABCC35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26E7E78621BBC26100ABCC35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		26500B6D21BBC949003DECB9 /* AsyncImageLoader */ = {
 			isa = PBXGroup;
 			children = (
+				26500B9F21BD201F003DECB9 /* Interactor */,
 				26500B7421BBC949003DECB9 /* Constants */,
 				26500B7721BBC949003DECB9 /* Models */,
 				26500B7B21BBC949003DECB9 /* Networking */,
@@ -221,6 +224,14 @@
 				26500B9821BBDD5B003DECB9 /* BaseViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		26500B9F21BD201F003DECB9 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				26500BA021BD2031003DECB9 /* PinManager.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		26E7E77821BBC26100ABCC35 = {
@@ -445,6 +456,7 @@
 				26E7E78721BBC26100ABCC35 /* ViewController.swift in Sources */,
 				26500B9921BBDD5B003DECB9 /* BaseViewController.swift in Sources */,
 				26E7E78521BBC26100ABCC35 /* AppDelegate.swift in Sources */,
+				26500BA121BD2031003DECB9 /* PinManager.swift in Sources */,
 				26500B9121BBC949003DECB9 /* PinDetailsService.swift in Sources */,
 				26500B9E21BD1D63003DECB9 /* User.swift in Sources */,
 			);

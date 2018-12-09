@@ -213,12 +213,12 @@ SWIFT_CLASS("_TtC14ImageCacheDemo18BaseViewController")
 
 SWIFT_CLASS("_TtC14ImageCacheDemo30PasteboardImagesViewController")
 @interface PasteboardImagesViewController : BaseViewController
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)viewDidLoad;
-- (void)fetchPins;
+- (IBAction)fetchPins;
 - (void)didReceiveMemoryWarning;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
 @class UITableView;
@@ -229,11 +229,9 @@ SWIFT_CLASS("_TtC14ImageCacheDemo30PasteboardImagesViewController")
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class UIImageView;
 
 SWIFT_CLASS("_TtC14ImageCacheDemo7PinCell")
 @interface PinCell : UITableViewCell
-@property (nonatomic, strong) IBOutlet UIImageView * _Null_unspecified pinImageView;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
 - (void)awakeFromNib;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

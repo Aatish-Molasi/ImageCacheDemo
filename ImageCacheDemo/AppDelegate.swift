@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow()
-        let pasteboardViewContorller = PasteboardImagesViewController()
+        let pasteboardViewContorller = PasteboardImagesViewController(pinManager: PinManager.sharedManager)
         let navigationViewController = UINavigationController(rootViewController: pasteboardViewContorller)
         self.window?.rootViewController = navigationViewController
         self.window?.makeKeyAndVisible()

@@ -4,14 +4,19 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
 
     var pinImagesTable: UITableView
     var refreshControl: UIRefreshControl
+    var pinManager: PinManager
 
     var pins:[Pin] = []
 
-    override init() {
+    init(pinManager: PinManager) {
         pinImagesTable = UITableView()
         refreshControl = UIRefreshControl()
-
+        self.pinManager = pinManager
         super.init()
+        
+        setupViews()
+        setupAppearance()
+        setupConstraints()
     }
 
     func setupViews() {
@@ -48,10 +53,18 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        //TODO: maybe move this to the view initializers
+        self.fetchPins()
     }
 
-    func fetchPins() {
-
+    @IBAction func fetchPins() {
+        self.pinManager.getPins { (pins, error) in
+            self.pins = pins!
+            DispatchQueue.main.async {
+                self.pinImagesTable.reloadData()
+            }
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -62,6 +75,8 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
 extension PasteboardImagesViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: PinCell.getCellIdentifier()) as? PinCell {
+            let currentPin = pins[indexPath.row]
+            cell.updateData(pin: currentPin)
             return cell
         }
 

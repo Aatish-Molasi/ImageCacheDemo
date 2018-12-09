@@ -76,6 +76,10 @@
 		<data>
 		bNSrc8vdO1jlm0OtjAVPAZ76xqM=
 		</data>
+		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
+		<data>
+		z69DTsUXc8Pudem4DhzHzZKhxPQ=
+		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
 		oY3+apax2bl9Ue7g9JoyEaEHv4E=
@@ -86,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BGNoJCFcAz1s/wTg9ujRTSZcNDs=
+		ezO3oOd6qRekvmGb08MJMiJIk6g=
 		</data>
 		<key>PasteboardImagesViewController.nib</key>
 		<data>
@@ -299,6 +303,17 @@
 			<key>hash2</key>
 			<data>
 			vQl+TVc5nmVw4Iwni2BxF/+weA8jASb3GtfNMgGXWoE=
+			</data>
+		</dict>
+		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			z69DTsUXc8Pudem4DhzHzZKhxPQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			2JwGRZa+ZYGbOOmkwlWDDeMkcfX/X2A0W3PQSCE4/lA=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftUIKit.dylib</key>

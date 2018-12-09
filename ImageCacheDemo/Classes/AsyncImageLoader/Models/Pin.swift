@@ -12,4 +12,18 @@ struct Pin: Codable {
     let urls: [String: String]
     let catergories:[Category]?
     let links: [String: String]
+
+    enum CodingKeys: String, CodingKey {
+        case id
+        case createdAt
+        case width
+        case height
+        case color
+        case likes
+        case likedByUser = "liked_by_user"
+        case user
+        case urls
+        case catergories
+        case links
+    }
 }

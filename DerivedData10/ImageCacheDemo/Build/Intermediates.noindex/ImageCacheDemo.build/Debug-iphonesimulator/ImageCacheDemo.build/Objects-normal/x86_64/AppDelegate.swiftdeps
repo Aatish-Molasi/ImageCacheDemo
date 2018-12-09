@@ -19,6 +19,7 @@ depends-top-level:
 - "Bool"
 - !private "BooleanLiteralType"
 - !private "PasteboardImagesViewController"
+- !private "PinManager"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
@@ -28,6 +29,7 @@ depends-top-level:
 depends-member:
 - ["14ImageCacheDemo11AppDelegateC", "Bool"]
 - !private ["14ImageCacheDemo11AppDelegateC", "PasteboardImagesViewController"]
+- !private ["14ImageCacheDemo11AppDelegateC", "PinManager"]
 - ["14ImageCacheDemo11AppDelegateC", "UIApplication"]
 - ["14ImageCacheDemo11AppDelegateC", "UIApplicationLaunchOptionsKey"]
 - !private ["14ImageCacheDemo11AppDelegateC", "UINavigationController"]
@@ -47,11 +49,11 @@ depends-member:
 - ["14ImageCacheDemo11AppDelegateC", "deinit"]
 - ["14ImageCacheDemo11AppDelegateC", "init"]
 - ["14ImageCacheDemo11AppDelegateC", "window"]
-- !private ["14ImageCacheDemo18BaseViewControllerC", "init"]
 - !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
 - !private ["So15CALayerDelegateP", "rootViewController"]
 - !private ["s7CVarArgP", "PasteboardImagesViewController"]
+- !private ["s7CVarArgP", "PinManager"]
 - !private ["s7CVarArgP", "UINavigationController"]
 - !private ["s7CVarArgP", "UIWindow"]
 - ["s7CVarArgP", "application"]
@@ -72,6 +74,7 @@ depends-member:
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "PasteboardImagesViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "PinManager"]
 - !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
 - !private ["s28CustomDebugStringConvertibleP", "UIWindow"]
 - ["s28CustomDebugStringConvertibleP", "application"]
@@ -92,6 +95,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "PasteboardImagesViewController"]
+- !private ["s23CustomStringConvertibleP", "PinManager"]
 - !private ["s23CustomStringConvertibleP", "UINavigationController"]
 - !private ["s23CustomStringConvertibleP", "UIWindow"]
 - ["s23CustomStringConvertibleP", "application"]
@@ -112,6 +116,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s9EquatableP", "PasteboardImagesViewController"]
+- !private ["s9EquatableP", "PinManager"]
 - !private ["s9EquatableP", "UINavigationController"]
 - !private ["s9EquatableP", "UIWindow"]
 - ["s9EquatableP", "application"]
@@ -132,6 +137,7 @@ depends-member:
 - ["s9EquatableP", "window"]
 - ["s9EquatableP", ""]
 - !private ["s8HashableP", "PasteboardImagesViewController"]
+- !private ["s8HashableP", "PinManager"]
 - !private ["s8HashableP", "UINavigationController"]
 - !private ["s8HashableP", "UIWindow"]
 - ["s8HashableP", "application"]
@@ -157,6 +163,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - ["So8NSObjectC", "Bool"]
 - !private ["So8NSObjectC", "PasteboardImagesViewController"]
+- !private ["So8NSObjectC", "PinManager"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
 - !private ["So8NSObjectC", "UINavigationController"]
@@ -178,6 +185,7 @@ depends-member:
 - !private ["So8NSObjectC", "rootViewController"]
 - ["So8NSObjectC", "window"]
 - !private ["So16NSObjectProtocolP", "PasteboardImagesViewController"]
+- !private ["So16NSObjectProtocolP", "PinManager"]
 - !private ["So16NSObjectProtocolP", "UINavigationController"]
 - !private ["So16NSObjectProtocolP", "UIWindow"]
 - ["So16NSObjectProtocolP", "application"]
@@ -197,7 +205,9 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "rootViewController"]
 - ["So16NSObjectProtocolP", "window"]
 - ["So16NSObjectProtocolP", ""]
+- !private ["14ImageCacheDemo30PasteboardImagesViewControllerC", "deinit"]
 - !private ["14ImageCacheDemo30PasteboardImagesViewControllerC", "init"]
+- !private ["14ImageCacheDemo10PinManagerC", "sharedManager"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
 - !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
@@ -208,6 +218,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
 - !private ["So21UIAppearanceContainerP", "rootViewController"]
 - !private ["So21UIApplicationDelegateP", "PasteboardImagesViewController"]
+- !private ["So21UIApplicationDelegateP", "PinManager"]
 - !private ["So21UIApplicationDelegateP", "UINavigationController"]
 - !private ["So21UIApplicationDelegateP", "UIWindow"]
 - ["So21UIApplicationDelegateP", "application"]
@@ -239,6 +250,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "rootViewController"]
 - !private ["So22UINavigationControllerC", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "PasteboardImagesViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "PinManager"]
 - !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIWindow"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
@@ -260,6 +272,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "Bool"]
 - !private ["So11UIResponderC", "PasteboardImagesViewController"]
+- !private ["So11UIResponderC", "PinManager"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
 - !private ["So11UIResponderC", "UINavigationController"]
@@ -282,6 +295,7 @@ depends-member:
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", ""]
 - !private ["So30UIResponderStandardEditActionsP", "PasteboardImagesViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "PinManager"]
 - !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
 - !private ["So30UIResponderStandardEditActionsP", "UIWindow"]
 - ["So30UIResponderStandardEditActionsP", "application"]
@@ -320,6 +334,7 @@ depends-member:
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "makeKeyAndVisible"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "PasteboardImagesViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PinManager"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindow"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
@@ -341,7 +356,6 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 depends-nominal:
 - "14ImageCacheDemo11AppDelegateC"
-- !private "14ImageCacheDemo18BaseViewControllerC"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
@@ -353,6 +367,7 @@ depends-nominal:
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
 - !private "14ImageCacheDemo30PasteboardImagesViewControllerC"
+- !private "14ImageCacheDemo10PinManagerC"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"

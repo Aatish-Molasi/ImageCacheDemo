@@ -2,12 +2,34 @@ import Foundation
 import UIKit
 import ImageCacheManager
 
-class PinCell: UITableViewCell {
-    @IBOutlet
+class PinCell: UITableViewCell, ViewSetupProtocol {
+    func setupViews() {
+        self.contentView.addSubview(pinImageView)
+    }
+
+    func setupAppearance() {
+        pinImageView.contentMode = .scaleAspectFit
+    }
+
+    func setupConstraints() {
+        pinImageView.translatesAutoresizingMaskIntoConstraints = false
+
+        NSLayoutConstraint.activate([
+            pinImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 0),
+            pinImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 0),
+            pinImageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: 0),
+            pinImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0)
+            ]);
+    }
+
     var pinImageView: UIImageView!
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+        pinImageView = UIImageView()
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setupViews()
+        setupAppearance()
+        setupConstraints()
     }
     
     override func awakeFromNib() {
@@ -19,14 +41,29 @@ class PinCell: UITableViewCell {
         super.init(coder: aDecoder)
     }
     
-//    func updateData(pin: Pin) {
-        //We can keep falling back to other sizes and so on and so forth
-//        if let thumbUrlString = pin.urls[PinAPIConstants.ImageTypes.thumb.rawValue] {
-//            self.pinImageView.setImage(withURL: URL(string: thumbUrlString), placeholderImage: UIImage(named: "bgNoimage"), completed: nil)
-//        } else if let rawUrlString = pin.urls[PinAPIConstants.ImageTypes.raw.rawValue] {
-//            self.pinImageView.setImage(withURL: URL(string: rawUrlString), placeholderImage: UIImage(named: "bgNoimage"), completed: nil)
-//        }
-//    }
+    func updateData(pin: Pin) {
+        if let thumbUrlString = pin.urls[PinAPIConstants.ImageTypes.thumb.rawValue] {
+            var err: NSError?
+            do {
+                print("Thumbstring : \(thumbUrlString)")
+                let imageData = try Data.init(contentsOf: URL(string: thumbUrlString)!)
+                print("Data : \(imageData)")
+                let bgImage = UIImage(data:imageData)
+                self.pinImageView.image = bgImage
+            } catch {
+
+            }
+        } else if let rawUrlString = pin.urls[PinAPIConstants.ImageTypes.raw.rawValue] {
+            do {
+                let imageData = try Data.init(contentsOf: URL(string: rawUrlString)!)
+                var bgImage = UIImage(data:imageData)
+                self.pinImageView.image = bgImage
+            } catch {
+
+            }
+
+        }
+    }
 
     class func getCellIdentifier() -> String {
         return String(describing: PinCell.self)
