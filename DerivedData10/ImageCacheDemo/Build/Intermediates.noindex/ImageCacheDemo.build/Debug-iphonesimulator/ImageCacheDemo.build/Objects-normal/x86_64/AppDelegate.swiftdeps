@@ -15,17 +15,22 @@ provides-dynamic-lookup:
 - "window"
 depends-top-level:
 - "AppDelegate"
+- "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "PasteboardImagesViewController"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
+- !private "UINavigationController"
 - "UIResponder"
 - "UIWindow"
 depends-member:
 - ["14ImageCacheDemo11AppDelegateC", "Bool"]
+- !private ["14ImageCacheDemo11AppDelegateC", "PasteboardImagesViewController"]
 - ["14ImageCacheDemo11AppDelegateC", "UIApplication"]
 - ["14ImageCacheDemo11AppDelegateC", "UIApplicationLaunchOptionsKey"]
+- !private ["14ImageCacheDemo11AppDelegateC", "UINavigationController"]
 - ["14ImageCacheDemo11AppDelegateC", "UIWindow"]
 - ["14ImageCacheDemo11AppDelegateC", "application"]
 - ["14ImageCacheDemo11AppDelegateC", "applicationDidBecomeActive"]
@@ -42,6 +47,13 @@ depends-member:
 - ["14ImageCacheDemo11AppDelegateC", "deinit"]
 - ["14ImageCacheDemo11AppDelegateC", "init"]
 - ["14ImageCacheDemo11AppDelegateC", "window"]
+- !private ["14ImageCacheDemo18BaseViewControllerC", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "makeKeyAndVisible"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["s7CVarArgP", "PasteboardImagesViewController"]
+- !private ["s7CVarArgP", "UINavigationController"]
+- !private ["s7CVarArgP", "UIWindow"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -55,8 +67,13 @@ depends-member:
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "makeKeyAndVisible"]
+- !private ["s7CVarArgP", "rootViewController"]
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "PasteboardImagesViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIWindow"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -70,8 +87,13 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "PasteboardImagesViewController"]
+- !private ["s23CustomStringConvertibleP", "UINavigationController"]
+- !private ["s23CustomStringConvertibleP", "UIWindow"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
@@ -85,8 +107,13 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeKeyAndVisible"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "PasteboardImagesViewController"]
+- !private ["s9EquatableP", "UINavigationController"]
+- !private ["s9EquatableP", "UIWindow"]
 - ["s9EquatableP", "application"]
 - ["s9EquatableP", "applicationDidBecomeActive"]
 - ["s9EquatableP", "applicationDidEnterBackground"]
@@ -100,8 +127,13 @@ depends-member:
 - ["s9EquatableP", "applicationWillResignActive"]
 - ["s9EquatableP", "applicationWillTerminate"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "makeKeyAndVisible"]
+- !private ["s9EquatableP", "rootViewController"]
 - ["s9EquatableP", "window"]
 - ["s9EquatableP", ""]
+- !private ["s8HashableP", "PasteboardImagesViewController"]
+- !private ["s8HashableP", "UINavigationController"]
+- !private ["s8HashableP", "UIWindow"]
 - ["s8HashableP", "application"]
 - ["s8HashableP", "applicationDidBecomeActive"]
 - ["s8HashableP", "applicationDidEnterBackground"]
@@ -115,11 +147,19 @@ depends-member:
 - ["s8HashableP", "applicationWillResignActive"]
 - ["s8HashableP", "applicationWillTerminate"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "makeKeyAndVisible"]
+- !private ["s8HashableP", "rootViewController"]
 - ["s8HashableP", "window"]
 - ["s8HashableP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "makeKeyAndVisible"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
 - ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "PasteboardImagesViewController"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
+- !private ["So8NSObjectC", "UINavigationController"]
 - ["So8NSObjectC", "UIWindow"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
@@ -134,7 +174,12 @@ depends-member:
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "makeKeyAndVisible"]
+- !private ["So8NSObjectC", "rootViewController"]
 - ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "PasteboardImagesViewController"]
+- !private ["So16NSObjectProtocolP", "UINavigationController"]
+- !private ["So16NSObjectProtocolP", "UIWindow"]
 - ["So16NSObjectProtocolP", "application"]
 - ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
 - ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
@@ -148,8 +193,23 @@ depends-member:
 - ["So16NSObjectProtocolP", "applicationWillResignActive"]
 - ["So16NSObjectProtocolP", "applicationWillTerminate"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "makeKeyAndVisible"]
+- !private ["So16NSObjectProtocolP", "rootViewController"]
 - ["So16NSObjectProtocolP", "window"]
 - ["So16NSObjectProtocolP", ""]
+- !private ["14ImageCacheDemo30PasteboardImagesViewControllerC", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "makeKeyAndVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "makeKeyAndVisible"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "makeKeyAndVisible"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIApplicationDelegateP", "PasteboardImagesViewController"]
+- !private ["So21UIApplicationDelegateP", "UINavigationController"]
+- !private ["So21UIApplicationDelegateP", "UIWindow"]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
 - ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
@@ -164,6 +224,23 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So21UIApplicationDelegateP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "makeKeyAndVisible"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "makeKeyAndVisible"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "makeKeyAndVisible"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "PasteboardImagesViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIWindow"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
@@ -177,11 +254,15 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeKeyAndVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "PasteboardImagesViewController"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
+- !private ["So11UIResponderC", "UINavigationController"]
 - ["So11UIResponderC", "UIWindow"]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "applicationDidBecomeActive"]
@@ -196,8 +277,13 @@ depends-member:
 - ["So11UIResponderC", "applicationWillResignActive"]
 - ["So11UIResponderC", "applicationWillTerminate"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "makeKeyAndVisible"]
+- !private ["So11UIResponderC", "rootViewController"]
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", ""]
+- !private ["So30UIResponderStandardEditActionsP", "PasteboardImagesViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIWindow"]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
@@ -211,8 +297,31 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "makeKeyAndVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "makeKeyAndVisible"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "makeKeyAndVisible"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So8UIWindowC", "init"]
+- !private ["So8UIWindowC", "makeKeyAndVisible"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["14ImageCacheDemo17ViewSetupProtocolP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "makeKeyAndVisible"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PasteboardImagesViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIWindow"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -226,21 +335,47 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeKeyAndVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 depends-nominal:
 - "14ImageCacheDemo11AppDelegateC"
+- !private "14ImageCacheDemo18BaseViewControllerC"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
 - "s9EquatableP"
 - "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "14ImageCacheDemo30PasteboardImagesViewControllerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
 - "So21UIApplicationDelegateP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So22UINavigationControllerC"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "14ImageCacheDemo17ViewSetupProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 depends-dynamic-lookup:
 depends-external:

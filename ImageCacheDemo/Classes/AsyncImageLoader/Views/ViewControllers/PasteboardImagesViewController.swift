@@ -1,15 +1,40 @@
 import UIKit
 
-class PasteboardImagesViewController: UIViewController {
+class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
 
-    @IBOutlet
-    var pinImagesTable: UITableView?
-    var refreshControl: UIRefreshControl?
+    var pinImagesTable: UITableView
+    var refreshControl: UIRefreshControl
 
     var pins:[Pin] = []
 
-    init() {
+    override init() {
+        pinImagesTable = UITableView()
+        refreshControl = UIRefreshControl()
 
+        super.init()
+    }
+
+    func setupViews() {
+        self.pinImagesTable.backgroundView = refreshControl
+        refreshControl.addTarget(self, action: #selector(self.fetchPins), for: .valueChanged)
+        self.view.addSubview(pinImagesTable)
+    }
+
+    func setupAppearance() {
+        self.pinImagesTable.register(PinCell.self, forCellReuseIdentifier: PinCell.getCellIdentifier())
+        self.pinImagesTable.delegate = self
+        self.pinImagesTable.dataSource = self
+    }
+
+    func setupConstraints() {
+        pinImagesTable.translatesAutoresizingMaskIntoConstraints = false
+
+        NSLayoutConstraint.activate([
+            pinImagesTable.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+            pinImagesTable.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
+            pinImagesTable.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0),
+            pinImagesTable.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0)
+            ]);
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -23,12 +48,9 @@ class PasteboardImagesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.refreshControl = UIRefreshControl()
-        refreshControl?.addTarget(self, action: #selector(self.fetchPins), for: .valueChanged)
-        self.pinImagesTable?.backgroundView = refreshControl
     }
 
-    @objc func fetchPins(){
+    func fetchPins() {
 
     }
     
@@ -39,14 +61,13 @@ class PasteboardImagesViewController: UIViewController {
 
 extension PasteboardImagesViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: PinCell.getCellIdentifier())
-        if cell == nil {
-            cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: PinCell.getCellIdentifier())
+        if let cell = tableView.dequeueReusableCell(withIdentifier: PinCell.getCellIdentifier()) as? PinCell {
+            return cell
         }
-        (cell as! PinCell).updateData(pin: self.pins[indexPath.row])
-        return cell!
+
+        return UITableViewCell()
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.pins.count
     }

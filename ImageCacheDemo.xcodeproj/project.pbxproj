@@ -10,14 +10,15 @@
 		26500B3E21BBC879003DECB9 /* ImageCacheManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26500B3821BBC778003DECB9 /* ImageCacheManager.framework */; };
 		26500B3F21BBC879003DECB9 /* ImageCacheManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26500B3821BBC778003DECB9 /* ImageCacheManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		26500B8A21BBC949003DECB9 /* ImageLoaderConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7521BBC949003DECB9 /* ImageLoaderConstants.swift */; };
-		26500B8C21BBC949003DECB9 /* Catergory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7821BBC949003DECB9 /* Catergory.swift */; };
-		26500B8D21BBC949003DECB9 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7921BBC949003DECB9 /* Pin.swift */; };
-		26500B8E21BBC949003DECB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7A21BBC949003DECB9 /* User.swift */; };
 		26500B9121BBC949003DECB9 /* PinDetailsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7E21BBC949003DECB9 /* PinDetailsService.swift */; };
 		26500B9221BBC949003DECB9 /* PasteboardUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B8021BBC949003DECB9 /* PasteboardUtil.swift */; };
 		26500B9321BBC949003DECB9 /* PinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B8321BBC949003DECB9 /* PinCell.swift */; };
 		26500B9421BBC949003DECB9 /* PasteboardImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B8521BBC949003DECB9 /* PasteboardImagesViewController.swift */; };
 		26500B9721BBCE0B003DECB9 /* PasteboardImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26500B9621BBCE0B003DECB9 /* PasteboardImagesViewController.xib */; };
+		26500B9921BBDD5B003DECB9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B9821BBDD5B003DECB9 /* BaseViewController.swift */; };
+		26500B9B21BD1D5E003DECB9 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7921BBC949003DECB9 /* Pin.swift */; };
+		26500B9D21BD1D61003DECB9 /* Catergory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7821BBC949003DECB9 /* Catergory.swift */; };
+		26500B9E21BD1D63003DECB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7A21BBC949003DECB9 /* User.swift */; };
 		26E7E78521BBC26100ABCC35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E7E78421BBC26100ABCC35 /* AppDelegate.swift */; };
 		26E7E78721BBC26100ABCC35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E7E78621BBC26100ABCC35 /* ViewController.swift */; };
 		26E7E78A21BBC26100ABCC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E7E78821BBC26100ABCC35 /* Main.storyboard */; };
@@ -90,6 +91,7 @@
 		26500B8321BBC949003DECB9 /* PinCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinCell.swift; sourceTree = "<group>"; };
 		26500B8521BBC949003DECB9 /* PasteboardImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasteboardImagesViewController.swift; sourceTree = "<group>"; };
 		26500B9621BBCE0B003DECB9 /* PasteboardImagesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasteboardImagesViewController.xib; sourceTree = "<group>"; };
+		26500B9821BBDD5B003DECB9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		26E7E78121BBC26100ABCC35 /* ImageCacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E7E78421BBC26100ABCC35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26E7E78621BBC26100ABCC35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			children = (
 				26500B8521BBC949003DECB9 /* PasteboardImagesViewController.swift */,
 				26500B9621BBCE0B003DECB9 /* PasteboardImagesViewController.xib */,
+				26500B9821BBDD5B003DECB9 /* BaseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -433,16 +436,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26500B9D21BD1D61003DECB9 /* Catergory.swift in Sources */,
 				26500B9221BBC949003DECB9 /* PasteboardUtil.swift in Sources */,
-				26500B8C21BBC949003DECB9 /* Catergory.swift in Sources */,
 				26500B8A21BBC949003DECB9 /* ImageLoaderConstants.swift in Sources */,
 				26500B9321BBC949003DECB9 /* PinCell.swift in Sources */,
+				26500B9B21BD1D5E003DECB9 /* Pin.swift in Sources */,
 				26500B9421BBC949003DECB9 /* PasteboardImagesViewController.swift in Sources */,
-				26500B8D21BBC949003DECB9 /* Pin.swift in Sources */,
 				26E7E78721BBC26100ABCC35 /* ViewController.swift in Sources */,
+				26500B9921BBDD5B003DECB9 /* BaseViewController.swift in Sources */,
 				26E7E78521BBC26100ABCC35 /* AppDelegate.swift in Sources */,
 				26500B9121BBC949003DECB9 /* PinDetailsService.swift in Sources */,
-				26500B8E21BBC949003DECB9 /* User.swift in Sources */,
+				26500B9E21BD1D63003DECB9 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

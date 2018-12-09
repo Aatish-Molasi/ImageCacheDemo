@@ -4,21 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<key>Assets.car</key>
 		<data>
-		ZWRTs+nHIMZdBa7UNUqZK+EaXek=
+		ElZspwRo9MePr/xS/LqrK1Gf9NI=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
-		n2t8gsDpfE6XkhG31p7IQJRxTxU=
-		</data>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<data>
-		x9qKQNT71f08KK0uVLuCi8RwRRE=
+		GnMdGFfDuvwAuWJN7FS9ELLozY4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		8XW8oVHYrBIW+dPHOwkgQH54e1Q=
+		jbSfvGltb71zrwN8a1uj0UXM4dg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -26,35 +22,19 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		HblAIxQi8zhgYeqWc4PRwU9UqCw=
+		WvD5sBGMHQ4t8Gn7HzGPLJR3Zgs=
 		</data>
 		<key>Frameworks/ImageCacheManager.framework/ImageCacheManager</key>
 		<data>
-		BEKXHcbJIdTM2OR+bAUq9ppf2rQ=
+		J1VtfOMn7ku6t7ttwSqF5e1tu8k=
 		</data>
 		<key>Frameworks/ImageCacheManager.framework/Info.plist</key>
 		<data>
-		gCAMMokAkJ5bJML/S00q9RAJYtU=
-		</data>
-		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		qJbu/UHGO+oqIawChiP/3Y7v0Vg=
-		</data>
-		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		USjyZdKn+7QmMZzXe8Uwwu36iO0=
+		tBtlMP3KpP6eLXN/qlBsBohbOro=
 		</data>
 		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeResources</key>
 		<data>
-		L3xMMydYE3E0widi+oX9hUgLtgs=
-		</data>
-		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		NfxzLV+I/pRofAl3U2xJaQzfvOM=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -106,7 +86,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		erbmft4fZDlf3Yd8eQXirPHUhWI=
+		BGNoJCFcAz1s/wTg9ujRTSZcNDs=
+		</data>
+		<key>PasteboardImagesViewController.nib</key>
+		<data>
+		FSbOVpAyDrThCfeGZeB9vr/qLi4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -119,48 +103,37 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
+		<key>Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZWRTs+nHIMZdBa7UNUqZK+EaXek=
+			ElZspwRo9MePr/xS/LqrK1Gf9NI=
 			</data>
 			<key>hash2</key>
 			<data>
-			r1T17It3ZwB0SGUXc/A3Cq92DtcV+TT7jGNNwSu4R2g=
+			YGR971KJpCCX6e8Y3JzVHCAgDP5vPxEFnOx2i/sfRO8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n2t8gsDpfE6XkhG31p7IQJRxTxU=
+			GnMdGFfDuvwAuWJN7FS9ELLozY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			HyVdXMU7Ux4/KalAao30mpWOK/lEPT4gvYN09wf31cg=
-			</data>
-		</dict>
-		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			x9qKQNT71f08KK0uVLuCi8RwRRE=
-			</data>
-			<key>hash2</key>
-			<data>
-			o3waUhSCCJyEKDh2Y/ULQwjlc0J6aqzp1wKAdZ5xsfM=
+			9gq+m2SfIqZdO4RnP+Q5bwx0h1nftPpvwkJZZ8jBiZE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8XW8oVHYrBIW+dPHOwkgQH54e1Q=
+			jbSfvGltb71zrwN8a1uj0UXM4dg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jm/oQfnXTQ0AMZ0PG2aSJwS4vWzM+gPQmQRTYaSaMGs=
+			LnE8ORKoNX0GR3ruJsSA4mRbPPiPhLnkbzNifz9nf34=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -178,88 +151,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HblAIxQi8zhgYeqWc4PRwU9UqCw=
+			WvD5sBGMHQ4t8Gn7HzGPLJR3Zgs=
 			</data>
 			<key>hash2</key>
 			<data>
-			5zY8VHpxWK9Pzv+IDv5YzEiIr297H2IvcNyv5oPJW4c=
+			8JmvcLIEeyU3mjCs1ElRdWRWXccnKL+eD3cR7GdCvJ0=
 			</data>
 		</dict>
 		<key>Frameworks/ImageCacheManager.framework/ImageCacheManager</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BEKXHcbJIdTM2OR+bAUq9ppf2rQ=
+			J1VtfOMn7ku6t7ttwSqF5e1tu8k=
 			</data>
 			<key>hash2</key>
 			<data>
-			zZDGOZ1+S7J+Rix9eVscpoQd9U2cvO8GP7XP4bcFgr4=
+			z7bDVri4c92D91/93JDS2bgz9ISOvd8MJ9iOYIGymNw=
 			</data>
 		</dict>
 		<key>Frameworks/ImageCacheManager.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gCAMMokAkJ5bJML/S00q9RAJYtU=
+			tBtlMP3KpP6eLXN/qlBsBohbOro=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kmrv6ZNAY1Vxo2bH7C0c6YmtY7FujrjdxkqvI8IXS/Q=
-			</data>
-		</dict>
-		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qJbu/UHGO+oqIawChiP/3Y7v0Vg=
-			</data>
-			<key>hash2</key>
-			<data>
-			81TL0hHmaoHJQVJ0wfLQNCJlTmNSgUSrEjUjdoNQyBc=
-			</data>
-		</dict>
-		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			USjyZdKn+7QmMZzXe8Uwwu36iO0=
-			</data>
-			<key>hash2</key>
-			<data>
-			xw7cLsNYJcr6FU7Ps68ycthHBEGmsuZCFP3xXjtwHOg=
+			cNjccrzBw0QksXQG3wHS4G4tzNsR/OJONo5YGAEymbA=
 			</data>
 		</dict>
 		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			L3xMMydYE3E0widi+oX9hUgLtgs=
+			NfxzLV+I/pRofAl3U2xJaQzfvOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			hjaso3nx7UbH+JvfUV6ZxI5FFAP8xx84rHQR4tvOcRc=
-			</data>
-		</dict>
-		<key>Frameworks/ImageCacheManager.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-			</data>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			b8xonWqotyysHenvS6gKZgX+JNd8dLupmqw0921dC6o=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -392,6 +321,17 @@
 			<key>hash2</key>
 			<data>
 			q8ly4PC/egcohqeYYBcewzxqP+ykhGUxfIusRMeaZ58=
+			</data>
+		</dict>
+		<key>PasteboardImagesViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FSbOVpAyDrThCfeGZeB9vr/qLi4=
+			</data>
+			<key>hash2</key>
+			<data>
+			gRVoCt5hGbfyllC7X3NdGBmePGsfsZFVjX9umM0Obzk=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

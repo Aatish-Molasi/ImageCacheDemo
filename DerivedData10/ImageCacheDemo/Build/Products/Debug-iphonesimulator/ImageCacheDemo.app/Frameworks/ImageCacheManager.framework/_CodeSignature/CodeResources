@@ -4,25 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>ImageCacheManager</key>
+		<key>Info.plist</key>
 		<data>
-		BEKXHcbJIdTM2OR+bAUq9ppf2rQ=
+		tBtlMP3KpP6eLXN/qlBsBohbOro=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict>
-		<key>ImageCacheManager</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BEKXHcbJIdTM2OR+bAUq9ppf2rQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			zZDGOZ1+S7J+Rix9eVscpoQd9U2cvO8GP7XP4bcFgr4=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^</key>
