@@ -60,7 +60,10 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
 
     @IBAction func fetchPins() {
         self.pinManager.getPins { (pins, error) in
-            self.pins = pins!
+            guard let pins = pins else {
+                return
+            }
+            self.pins = pins
             DispatchQueue.main.async {
                 self.pinImagesTable.reloadData()
             }

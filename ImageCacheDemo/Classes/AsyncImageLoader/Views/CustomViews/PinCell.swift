@@ -43,24 +43,9 @@ class PinCell: UITableViewCell, ViewSetupProtocol {
     
     func updateData(pin: Pin) {
         if let thumbUrlString = pin.urls[PinAPIConstants.ImageTypes.thumb.rawValue] {
-            do {
-                print("Thumbstring : \(thumbUrlString)")
-                let imageData = try Data.init(contentsOf: URL(string: thumbUrlString)!)
-                print("Data : \(imageData)")
-                let bgImage = UIImage(data:imageData)
-                self.pinImageView.image = bgImage
-            } catch {
-                print(error)
-            }
+            self.pinImageView.setImage(withURL: URL(string: thumbUrlString), placeholderImage: UIImage(named: "bgNoimage"), completed: nil)
         } else if let rawUrlString = pin.urls[PinAPIConstants.ImageTypes.raw.rawValue] {
-            do {
-                let imageData = try Data.init(contentsOf: URL(string: rawUrlString)!)
-                var bgImage = UIImage(data:imageData)
-                self.pinImageView.image = bgImage
-            } catch {
-                print(error)
-            }
-
+            self.pinImageView.setImage(withURL: URL(string: rawUrlString), placeholderImage: UIImage(named: "bgNoimage"), completed: nil)
         }
     }
 

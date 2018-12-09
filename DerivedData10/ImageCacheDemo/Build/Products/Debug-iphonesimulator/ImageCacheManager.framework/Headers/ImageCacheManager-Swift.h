@@ -193,6 +193,12 @@ SWIFT_CLASS("_TtC17ImageCacheManager15DownloadManager")
 @end
 
 
+SWIFT_CLASS("_TtC17ImageCacheManager21SharedDownloadManager")
+@interface SharedDownloadManager : NSObject <NSURLSessionDelegate>
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
+@end
+
+
 
 SWIFT_MODULE_NAMESPACE_POP
 #pragma clang diagnostic pop
