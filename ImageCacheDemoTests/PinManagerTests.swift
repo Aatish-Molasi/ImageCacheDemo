@@ -13,7 +13,7 @@ class PinManagerTests: XCTestCase {
     var pinManager: PinManager!
     override func setUp() {
         super.setUp()
-        pinManager = PinManager(urlSession: MockURLSession)
+        pinManager = PinManager(urlSession: MockURLSession())
     }
     
     override func tearDown() {
@@ -23,7 +23,9 @@ class PinManagerTests: XCTestCase {
     
     func testFetchingPins() {
         pinManager.getPins(page: 1) { (pins, error) in
-
+            XCTAssertNil(error)
+            XCTAssertNotNil(pins)
+            XCTAssert(pins?.count == PayloadStub.payloadWithData.count)
         }
     }
 
@@ -46,8 +48,15 @@ class PinManagerTests: XCTestCase {
         }
 
         override func resume() {
-            let dictionaryData = NSKeyedArchiver.archivedData(withRootObject: PayloadStub.payloadWithData)
-            completionHandler!(dictionaryData, mockResponse.urlResponse, mockResponse.error)
+            if let theJSONData = try?  JSONSerialization.data(
+                withJSONObject: PayloadStub.payloadWithData,
+                options: .prettyPrinted
+                ),
+                let theJSONText = String(data: theJSONData,
+                                         encoding: String.Encoding.ascii) {
+                print("JSON string = \n\(theJSONText)")
+                completionHandler!(theJSONData, mockResponse.urlResponse, mockResponse.error)
+            }
         }
     }
 }
