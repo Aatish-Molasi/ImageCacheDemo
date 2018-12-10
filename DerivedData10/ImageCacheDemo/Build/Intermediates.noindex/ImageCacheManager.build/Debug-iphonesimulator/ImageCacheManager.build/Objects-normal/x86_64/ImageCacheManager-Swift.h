@@ -187,8 +187,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_MODULE_NAMESPACE_PUSH("ImageCacheManager")
 
-SWIFT_CLASS("_TtC17ImageCacheManager15DownloadManager")
-@interface DownloadManager : NSObject <NSURLSessionDelegate>
+SWIFT_CLASS("_TtC17ImageCacheManager15DownloadRequest")
+@interface DownloadRequest : NSObject <NSURLSessionDelegate>
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 

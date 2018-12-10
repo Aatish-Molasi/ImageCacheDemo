@@ -15,10 +15,10 @@ class PinCell: UITableViewCell, ViewSetupProtocol {
         pinImageView.translatesAutoresizingMaskIntoConstraints = false
 
         NSLayoutConstraint.activate([
-            pinImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 0),
-            pinImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 0),
-            pinImageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: 0),
-            pinImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 0)
+            pinImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 5),
+            pinImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 5),
+            pinImageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -5),
+            pinImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -5)
             ]);
     }
 
@@ -26,6 +26,7 @@ class PinCell: UITableViewCell, ViewSetupProtocol {
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         pinImageView = UIImageView()
+
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupViews()
         setupAppearance()

@@ -26,6 +26,8 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
     }
 
     func setupAppearance() {
+        self.view.backgroundColor = UIColor.white
+
         self.pinImagesTable.register(PinCell.self, forCellReuseIdentifier: PinCell.getCellIdentifier())
         self.pinImagesTable.delegate = self
         self.pinImagesTable.dataSource = self
@@ -36,7 +38,7 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
 
         NSLayoutConstraint.activate([
             pinImagesTable.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
-            pinImagesTable.topAnchor.constraint(equalTo: view.topAnchor, constant: 100),
+            pinImagesTable.topAnchor.constraint(equalTo: view.topAnchor, constant: 10),
             pinImagesTable.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0),
             pinImagesTable.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0)
             ]);
@@ -89,6 +91,10 @@ extension PasteboardImagesViewController: UITableViewDataSource, UITableViewDele
         return UITableViewCell()
     }
 
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 150
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.pins.count
     }
