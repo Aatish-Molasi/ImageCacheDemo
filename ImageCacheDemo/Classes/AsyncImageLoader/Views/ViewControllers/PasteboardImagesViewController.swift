@@ -14,9 +14,7 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
         self.pinManager = pinManager
         super.init()
         
-        setupViews()
-        setupAppearance()
-        setupConstraints()
+        setupUI()
     }
 
     func setupViews() {

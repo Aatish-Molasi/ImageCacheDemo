@@ -28,9 +28,7 @@ class PinCell: UITableViewCell, ViewSetupProtocol {
         pinImageView = UIImageView()
 
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        setupViews()
-        setupAppearance()
-        setupConstraints()
+        setupUI()
     }
     
     override func awakeFromNib() {
