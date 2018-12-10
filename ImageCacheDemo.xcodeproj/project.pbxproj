@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26500B3E21BBC879003DECB9 /* ImageCacheManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26500B3821BBC778003DECB9 /* ImageCacheManager.framework */; };
-		26500B3F21BBC879003DECB9 /* ImageCacheManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26500B3821BBC778003DECB9 /* ImageCacheManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		26500B8A21BBC949003DECB9 /* ImageLoaderConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B7521BBC949003DECB9 /* ImageLoaderConstants.swift */; };
 		26500B9221BBC949003DECB9 /* PasteboardUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B8021BBC949003DECB9 /* PasteboardUtil.swift */; };
 		26500B9321BBC949003DECB9 /* PinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500B8321BBC949003DECB9 /* PinCell.swift */; };
@@ -21,6 +19,8 @@
 		26500BC021BE5812003DECB9 /* PasteboardImagesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500BBF21BE5812003DECB9 /* PasteboardImagesViewControllerTests.swift */; };
 		26500BC221BE5845003DECB9 /* PinManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500BC121BE5845003DECB9 /* PinManagerTests.swift */; };
 		26500BC421BE5B45003DECB9 /* PasteboardStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26500BC321BE5B45003DECB9 /* PasteboardStubs.swift */; };
+		266C41EE21BED82E00E21578 /* ImageCacheManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266C41E921BED7D500E21578 /* ImageCacheManager.framework */; };
+		266C41EF21BED82E00E21578 /* ImageCacheManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 266C41E921BED7D500E21578 /* ImageCacheManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		26E7E78521BBC26100ABCC35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E7E78421BBC26100ABCC35 /* AppDelegate.swift */; };
 		26E7E78721BBC26100ABCC35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E7E78621BBC26100ABCC35 /* ViewController.swift */; };
 		26E7E78A21BBC26100ABCC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E7E78821BBC26100ABCC35 /* Main.storyboard */; };
@@ -30,23 +30,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26500B3721BBC778003DECB9 /* PBXContainerItemProxy */ = {
+		266C41E821BED7D500E21578 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26500B3221BBC778003DECB9 /* ImageCacheManager.xcodeproj */;
+			containerPortal = 266C41E321BED7D400E21578 /* ImageCacheManager.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 26E7E75C21BBC22500ABCC35;
 			remoteInfo = ImageCacheManager;
 		};
-		26500B3921BBC778003DECB9 /* PBXContainerItemProxy */ = {
+		266C41EA21BED7D500E21578 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26500B3221BBC778003DECB9 /* ImageCacheManager.xcodeproj */;
+			containerPortal = 266C41E321BED7D400E21578 /* ImageCacheManager.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 26E7E76521BBC22500ABCC35;
 			remoteInfo = ImageCacheManagerTests;
 		};
-		26500B4021BBC879003DECB9 /* PBXContainerItemProxy */ = {
+		266C41F021BED82E00E21578 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26500B3221BBC778003DECB9 /* ImageCacheManager.xcodeproj */;
+			containerPortal = 266C41E321BED7D400E21578 /* ImageCacheManager.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 26E7E75B21BBC22500ABCC35;
 			remoteInfo = ImageCacheManager;
@@ -74,7 +74,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				26500B3F21BBC879003DECB9 /* ImageCacheManager.framework in Embed Frameworks */,
+				266C41EF21BED82E00E21578 /* ImageCacheManager.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,7 +82,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		26500B3221BBC778003DECB9 /* ImageCacheManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ImageCacheManager.xcodeproj; path = ../ImageCacheManager/ImageCacheManager.xcodeproj; sourceTree = "<group>"; };
 		26500B7521BBC949003DECB9 /* ImageLoaderConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoaderConstants.swift; sourceTree = "<group>"; };
 		26500B7821BBC949003DECB9 /* Catergory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Catergory.swift; sourceTree = "<group>"; };
 		26500B7921BBC949003DECB9 /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
@@ -95,6 +94,7 @@
 		26500BBF21BE5812003DECB9 /* PasteboardImagesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardImagesViewControllerTests.swift; sourceTree = "<group>"; };
 		26500BC121BE5845003DECB9 /* PinManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinManagerTests.swift; sourceTree = "<group>"; };
 		26500BC321BE5B45003DECB9 /* PasteboardStubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardStubs.swift; sourceTree = "<group>"; };
+		266C41E321BED7D400E21578 /* ImageCacheManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ImageCacheManager.xcodeproj; path = ImageCacheManager/ImageCacheManager.xcodeproj; sourceTree = "<group>"; };
 		26E7E78121BBC26100ABCC35 /* ImageCacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E7E78421BBC26100ABCC35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26E7E78621BBC26100ABCC35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26500B3E21BBC879003DECB9 /* ImageCacheManager.framework in Frameworks */,
+				266C41EE21BED82E00E21578 /* ImageCacheManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,24 +135,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26500B3321BBC778003DECB9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				26500B3821BBC778003DECB9 /* ImageCacheManager.framework */,
-				26500B3A21BBC778003DECB9 /* ImageCacheManagerTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		26500B6C21BBC936003DECB9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				26500B6D21BBC949003DECB9 /* AsyncImageLoader */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		26500B6D21BBC949003DECB9 /* AsyncImageLoader */ = {
 			isa = PBXGroup;
 			children = (
 				26500B9F21BD201F003DECB9 /* Interactor */,
@@ -161,7 +144,7 @@
 				26500B7F21BBC949003DECB9 /* Utils */,
 				26500B8121BBC949003DECB9 /* Views */,
 			);
-			path = AsyncImageLoader;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		26500B7421BBC949003DECB9 /* Constants */ = {
@@ -224,10 +207,19 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
+		266C41E421BED7D400E21578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266C41E921BED7D500E21578 /* ImageCacheManager.framework */,
+				266C41EB21BED7D500E21578 /* ImageCacheManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		26E7E77821BBC26100ABCC35 = {
 			isa = PBXGroup;
 			children = (
-				26500B3221BBC778003DECB9 /* ImageCacheManager.xcodeproj */,
+				266C41E321BED7D400E21578 /* ImageCacheManager.xcodeproj */,
 				26E7E78321BBC26100ABCC35 /* ImageCacheDemo */,
 				26E7E79821BBC26100ABCC35 /* ImageCacheDemoTests */,
 				26E7E7A321BBC26100ABCC35 /* ImageCacheDemoUITests */,
@@ -294,7 +286,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				26500B4121BBC879003DECB9 /* PBXTargetDependency */,
+				266C41F121BED82E00E21578 /* PBXTargetDependency */,
 			);
 			name = ImageCacheDemo;
 			productName = ImageCacheDemo;
@@ -376,8 +368,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 26500B3321BBC778003DECB9 /* Products */;
-					ProjectRef = 26500B3221BBC778003DECB9 /* ImageCacheManager.xcodeproj */;
+					ProductGroup = 266C41E421BED7D400E21578 /* Products */;
+					ProjectRef = 266C41E321BED7D400E21578 /* ImageCacheManager.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -390,18 +382,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		26500B3821BBC778003DECB9 /* ImageCacheManager.framework */ = {
+		266C41E921BED7D500E21578 /* ImageCacheManager.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ImageCacheManager.framework;
-			remoteRef = 26500B3721BBC778003DECB9 /* PBXContainerItemProxy */;
+			remoteRef = 266C41E821BED7D500E21578 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26500B3A21BBC778003DECB9 /* ImageCacheManagerTests.xctest */ = {
+		266C41EB21BED7D500E21578 /* ImageCacheManagerTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ImageCacheManagerTests.xctest;
-			remoteRef = 26500B3921BBC778003DECB9 /* PBXContainerItemProxy */;
+			remoteRef = 266C41EA21BED7D500E21578 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -473,10 +465,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26500B4121BBC879003DECB9 /* PBXTargetDependency */ = {
+		266C41F121BED82E00E21578 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImageCacheManager;
-			targetProxy = 26500B4021BBC879003DECB9 /* PBXContainerItemProxy */;
+			targetProxy = 266C41F021BED82E00E21578 /* PBXContainerItemProxy */;
 		};
 		26E7E79721BBC26100ABCC35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
