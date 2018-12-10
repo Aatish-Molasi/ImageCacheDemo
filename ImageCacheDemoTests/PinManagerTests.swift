@@ -29,6 +29,7 @@ class PinManagerTests: XCTestCase {
         }
     }
 
+    //MARK: - Stubs
     class MockURLSession: URLSession {
         static var mockResponse: (data: Data?, urlResponse: URLResponse?, error: Error?) = (data: Data(), urlResponse: nil, error: nil)
 

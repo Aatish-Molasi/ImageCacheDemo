@@ -69,7 +69,9 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
             guard let pins = pins else {
                 return
             }
-            self.pins.append(contentsOf: pins)
+            //will have some sort of appending once we add pagination
+            //TODO: move this to a data source
+            self.pins = pins
             DispatchQueue.main.async {
                 self.refreshControl.endRefreshing()
                 self.pinImagesTable.reloadData()
