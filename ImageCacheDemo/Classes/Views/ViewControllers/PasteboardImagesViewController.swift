@@ -49,7 +49,6 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.fetchPins()
     }
     
     override func viewDidLoad() {
