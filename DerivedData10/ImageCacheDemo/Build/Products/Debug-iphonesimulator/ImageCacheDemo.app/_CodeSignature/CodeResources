@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		woowdqAoPXFKcT7WitfYwDYB13Q=
+		3qUYCSv5Ewz2ijQLwGGPTIYYHmE=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		10qFFbDMDBxVgkP8Eo41AMvvw1s=
+		iLkw4Y17e6UJ9BT89vYJ0F1JabA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -22,27 +22,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		5L0vHB75ftzR8j3Wz35ZdBv8Ubw=
-		</data>
-		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
-		<data>
-		ooz0sIAaLKBGoFU5iKq8DR11NmY=
-		</data>
-		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
-		<data>
-		R/knOPjsjrJNiVtUa2S4kYE749M=
-		</data>
-		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
-		<data>
-		qcVgsOCxIzxwcNXLWXgRrNjnuT8=
-		</data>
-		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
-		<data>
-		K7jOt4uC+lqy/StneXlQVk21axY=
+		pKtc49DcOPHVKZJ4o85DCf89IqA=
 		</data>
 		<key>Frameworks/ImageCacheManager.framework/ImageCacheManager</key>
 		<data>
-		YII9OZTwumgGp4rQ2lXz6wxQpXs=
+		RWf7e+Y6JwaGH+6Mw+3PQ9zHQNQ=
 		</data>
 		<key>Frameworks/ImageCacheManager.framework/Info.plist</key>
 		<data>
@@ -52,38 +36,9 @@
 		<data>
 		NfxzLV+I/pRofAl3U2xJaQzfvOM=
 		</data>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<data>
-		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
-		</data>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<data>
-		M3EBma1BpAxt7iGIjYcrm9BnNOc=
-		</data>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<data>
-		5EUn1qFgVTwSkfSLCubcLwgrx0c=
-		</data>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<data>
-		Etc/8BPenX54rv1uBx24u4bnqTg=
-		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
 		U7vCU+FGaFpWMe3nP4L1T1eaCgY=
-		</data>
-		<key>Frameworks/libswiftCoreAudio.dylib</key>
-		<data>
-		6xG4pG+Xeat2+4gZP6j14dz8TYA=
 		</data>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<data>
@@ -96,10 +51,6 @@
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
 		KVN5tYEcz2iXkKcpiOOIDRg9M+s=
-		</data>
-		<key>Frameworks/libswiftCoreMedia.dylib</key>
-		<data>
-		96leBR1Ba+pToejI223+pJ51w4Y=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
@@ -133,10 +84,6 @@
 		<data>
 		oY3+apax2bl9Ue7g9JoyEaEHv4E=
 		</data>
-		<key>Frameworks/libswiftXCTest.dylib</key>
-		<data>
-		FNuhw7Y/7TQibcp2biKIPVBWHzE=
-		</data>
 		<key>Frameworks/libswiftos.dylib</key>
 		<data>
 		FQxKncO70G9OVJUuKsOz8fmGq4A=
@@ -149,82 +96,6 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCore.dylib</key>
-		<data>
-		U7vCU+FGaFpWMe3nP4L1T1eaCgY=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreAudio.dylib</key>
-		<data>
-		6xG4pG+Xeat2+4gZP6j14dz8TYA=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreFoundation.dylib</key>
-		<data>
-		9rAe7DwYwoFBGQK+rEAfJID1N8w=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreGraphics.dylib</key>
-		<data>
-		dVgClbZlnsC4EP5eAJs8DxJXd2o=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreImage.dylib</key>
-		<data>
-		KVN5tYEcz2iXkKcpiOOIDRg9M+s=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreMedia.dylib</key>
-		<data>
-		96leBR1Ba+pToejI223+pJ51w4Y=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftDarwin.dylib</key>
-		<data>
-		EfcCetrGai5p9PFiDkZKsyUBlek=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftDispatch.dylib</key>
-		<data>
-		qnnJZYwK6KZTdUJyZWS2xrQsb3k=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftFoundation.dylib</key>
-		<data>
-		ZPqkaDJ3LqNX1LuwcZzfSHQuuW8=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftMetal.dylib</key>
-		<data>
-		umqscaVDYI5garaT4ZCMxvJm6n4=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftObjectiveC.dylib</key>
-		<data>
-		z+L7Qh1rLxBDqxpS8AKZvqnhv0o=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftQuartzCore.dylib</key>
-		<data>
-		bNSrc8vdO1jlm0OtjAVPAZ76xqM=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftUIKit.dylib</key>
-		<data>
-		oY3+apax2bl9Ue7g9JoyEaEHv4E=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftXCTest.dylib</key>
-		<data>
-		FNuhw7Y/7TQibcp2biKIPVBWHzE=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftos.dylib</key>
-		<data>
-		FQxKncO70G9OVJUuKsOz8fmGq4A=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/ImageCacheDemoTests</key>
-		<data>
-		QW6xYq5vIY/g3OU0EMbdAv2oQes=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Info.plist</key>
-		<data>
-		2FvKxD4oWGwtyGr6/5LLOU0lrxY=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/_CodeSignature/CodeResources</key>
-		<data>
-		UUYiQPOBJKNPWHhg+5S38cEKMgw=
-		</data>
-		<key>PlugIns/ImageCacheDemoTests.xctest/libswiftRemoteMirror.dylib</key>
-		<data>
-		RcicIP0lKALIvOAuOlDdMvzAUTU=
-		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
 		RcicIP0lKALIvOAuOlDdMvzAUTU=
@@ -236,11 +107,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			woowdqAoPXFKcT7WitfYwDYB13Q=
+			3qUYCSv5Ewz2ijQLwGGPTIYYHmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			uw3hOWkYxARZtHF05EAB4wvcOXsU0zjWsI9pBoCXeoM=
+			wSUpFlCu9/YObIY5q49EX7jl2MkiqJoJPLvDP007w0o=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -258,11 +129,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			10qFFbDMDBxVgkP8Eo41AMvvw1s=
+			iLkw4Y17e6UJ9BT89vYJ0F1JabA=
 			</data>
 			<key>hash2</key>
 			<data>
-			nn9apXJ/UNiXMdDfoU8mtiuhYeN0CaC6ZQP5PUBuaOM=
+			ZMIPDisbz2l8PXSVPkyOjkBsDcU8R+IVQeuDSTwnVnI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -280,66 +151,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5L0vHB75ftzR8j3Wz35ZdBv8Ubw=
+			pKtc49DcOPHVKZJ4o85DCf89IqA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6Lg2vRondt/pCG4Ga8vZO0qMWZtijcXmMXK/HfQtTik=
-			</data>
-		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ooz0sIAaLKBGoFU5iKq8DR11NmY=
-			</data>
-			<key>hash2</key>
-			<data>
-			QTZkTlnemyTcrFMb3v3GdQcfmpRodaOjtevd5TjxiiY=
-			</data>
-		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R/knOPjsjrJNiVtUa2S4kYE749M=
-			</data>
-			<key>hash2</key>
-			<data>
-			wLDjbULmM78l0rN5jh2/yPax234qVZL29OQBQmdYmOU=
-			</data>
-		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qcVgsOCxIzxwcNXLWXgRrNjnuT8=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZARlo4LD/z4nYhaCEocjb6nPjuZDCrLsQzn0n4GVr3s=
-			</data>
-		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			K7jOt4uC+lqy/StneXlQVk21axY=
-			</data>
-			<key>hash2</key>
-			<data>
-			VzM0aDQjkmLy+IyPasdn9DeGkOOTuNMbKUMz+3efAaU=
+			njWGtApidwPDji4lfckK2xAfb4oJs4UxNJVUtiwo43A=
 			</data>
 		</dict>
 		<key>Frameworks/ImageCacheManager.framework/ImageCacheManager</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YII9OZTwumgGp4rQ2lXz6wxQpXs=
+			RWf7e+Y6JwaGH+6Mw+3PQ9zHQNQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			FvNbKU1xUwCpUBOH67IKCD4AGH9K8BPmq3A9trtGKY8=
+			e8zzk5JchM8k8tQgyjud33WHvICt6LTNjKQNlLwsIFA=
 			</data>
 		</dict>
 		<key>Frameworks/ImageCacheManager.framework/Info.plist</key>
@@ -364,63 +191,6 @@
 			b8xonWqotyysHenvS6gKZgX+JNd8dLupmqw0921dC6o=
 			</data>
 		</dict>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CYfyvPIGUR84QvCD7SuNDvG6Bxc=
-			</data>
-			<key>hash2</key>
-			<data>
-			Xsgm2dBly62EneiB04ryti89smi53XIXAOtYLFyW4ZE=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/XCTest</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			M3EBma1BpAxt7iGIjYcrm9BnNOc=
-			</data>
-			<key>hash2</key>
-			<data>
-			qAlGOWS6ltLA/WrYd4Rz6EHPivttCiNu41NTW7ulBAI=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5EUn1qFgVTwSkfSLCubcLwgrx0c=
-			</data>
-			<key>hash2</key>
-			<data>
-			55ZdMLgNGz7Q67XNAv/M4f4uXy0R2d5+tlHRhlkL8t4=
-			</data>
-		</dict>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>hash2</key>
-			<data>
-			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Etc/8BPenX54rv1uBx24u4bnqTg=
-			</data>
-			<key>hash2</key>
-			<data>
-			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
-			</data>
-		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -430,17 +200,6 @@
 			<key>hash2</key>
 			<data>
 			LiU/34mVaMRIWZmMuntHn0OY40aL/dwzogmEHquxvpw=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftCoreAudio.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6xG4pG+Xeat2+4gZP6j14dz8TYA=
-			</data>
-			<key>hash2</key>
-			<data>
-			uuhwZ3ei4VFI84spcUrXSQhTJbNa0f7NbGGPWcewH3M=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
@@ -474,17 +233,6 @@
 			<key>hash2</key>
 			<data>
 			DkK738q0/9braDBlaIirvANI6cSY9QkjXqX1oBlSjyc=
-			</data>
-		</dict>
-		<key>Frameworks/libswiftCoreMedia.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			96leBR1Ba+pToejI223+pJ51w4Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			5qZnkppDEw4hPRPsdQJ/C9SkUkwR/fYVrZJi/7RNJik=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
@@ -575,17 +323,6 @@
 			0JuGia18tlgKJfIWHn4onZ6ggJWS8Q7uqfItpybU41s=
 			</data>
 		</dict>
-		<key>Frameworks/libswiftXCTest.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FNuhw7Y/7TQibcp2biKIPVBWHzE=
-			</data>
-			<key>hash2</key>
-			<data>
-			ggn8x2XvjdQt+oBHr6Lud0v5Xk+sS/ycudXGhD+jKHA=
-			</data>
-		</dict>
 		<key>Frameworks/libswiftos.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -595,215 +332,6 @@
 			<key>hash2</key>
 			<data>
 			q8ly4PC/egcohqeYYBcewzxqP+ykhGUxfIusRMeaZ58=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCore.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			U7vCU+FGaFpWMe3nP4L1T1eaCgY=
-			</data>
-			<key>hash2</key>
-			<data>
-			LiU/34mVaMRIWZmMuntHn0OY40aL/dwzogmEHquxvpw=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreAudio.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6xG4pG+Xeat2+4gZP6j14dz8TYA=
-			</data>
-			<key>hash2</key>
-			<data>
-			uuhwZ3ei4VFI84spcUrXSQhTJbNa0f7NbGGPWcewH3M=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreFoundation.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9rAe7DwYwoFBGQK+rEAfJID1N8w=
-			</data>
-			<key>hash2</key>
-			<data>
-			D3QGPNq8W4MPYW8IM3xiQFQARO7DMAqSbDgQ6i+3t0U=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreGraphics.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dVgClbZlnsC4EP5eAJs8DxJXd2o=
-			</data>
-			<key>hash2</key>
-			<data>
-			shI8bUwhxPTDu5UIINwthixKxJKvXBf/7HzMZo4Ngoc=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreImage.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KVN5tYEcz2iXkKcpiOOIDRg9M+s=
-			</data>
-			<key>hash2</key>
-			<data>
-			DkK738q0/9braDBlaIirvANI6cSY9QkjXqX1oBlSjyc=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftCoreMedia.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			96leBR1Ba+pToejI223+pJ51w4Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			5qZnkppDEw4hPRPsdQJ/C9SkUkwR/fYVrZJi/7RNJik=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftDarwin.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EfcCetrGai5p9PFiDkZKsyUBlek=
-			</data>
-			<key>hash2</key>
-			<data>
-			jLgulRPOwyExWD5Q4kplznbOF81KfQ4XRg9Gl/uPDAY=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftDispatch.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qnnJZYwK6KZTdUJyZWS2xrQsb3k=
-			</data>
-			<key>hash2</key>
-			<data>
-			RJ11KDhD4puaNmkRIbGBWFaELwif5w52t5qvBYyllq0=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftFoundation.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZPqkaDJ3LqNX1LuwcZzfSHQuuW8=
-			</data>
-			<key>hash2</key>
-			<data>
-			VRmGKlEWEdeG5vqWNJibKUvoKqN/QNCjahcfN5BX1Qo=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftMetal.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			umqscaVDYI5garaT4ZCMxvJm6n4=
-			</data>
-			<key>hash2</key>
-			<data>
-			qh+ttNbrxA12nVBhX6MSaxmCRl0JF1uhZanNs67YKTs=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftObjectiveC.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			z+L7Qh1rLxBDqxpS8AKZvqnhv0o=
-			</data>
-			<key>hash2</key>
-			<data>
-			0ZPwMkK0QV6+gC23hpD6neqmk4QSXUW6f3Zg58I3Efo=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftQuartzCore.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bNSrc8vdO1jlm0OtjAVPAZ76xqM=
-			</data>
-			<key>hash2</key>
-			<data>
-			vQl+TVc5nmVw4Iwni2BxF/+weA8jASb3GtfNMgGXWoE=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftUIKit.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oY3+apax2bl9Ue7g9JoyEaEHv4E=
-			</data>
-			<key>hash2</key>
-			<data>
-			0JuGia18tlgKJfIWHn4onZ6ggJWS8Q7uqfItpybU41s=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftXCTest.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FNuhw7Y/7TQibcp2biKIPVBWHzE=
-			</data>
-			<key>hash2</key>
-			<data>
-			ggn8x2XvjdQt+oBHr6Lud0v5Xk+sS/ycudXGhD+jKHA=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Frameworks/libswiftos.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FQxKncO70G9OVJUuKsOz8fmGq4A=
-			</data>
-			<key>hash2</key>
-			<data>
-			q8ly4PC/egcohqeYYBcewzxqP+ykhGUxfIusRMeaZ58=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/ImageCacheDemoTests</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QW6xYq5vIY/g3OU0EMbdAv2oQes=
-			</data>
-			<key>hash2</key>
-			<data>
-			0UQgd8DV/fOKeAm9D61g7zRdUHg+c1XnKCZvGc0r/K0=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2FvKxD4oWGwtyGr6/5LLOU0lrxY=
-			</data>
-			<key>hash2</key>
-			<data>
-			X+l/kDa390+mJap5LFTkXCI6q+eTILD6LUkO8zPIYQc=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UUYiQPOBJKNPWHhg+5S38cEKMgw=
-			</data>
-			<key>hash2</key>
-			<data>
-			06gUfOhoe1kPchDZvUmQnGw7Y7anwrYiKxcg3jK/e8I=
-			</data>
-		</dict>
-		<key>PlugIns/ImageCacheDemoTests.xctest/libswiftRemoteMirror.dylib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RcicIP0lKALIvOAuOlDdMvzAUTU=
-			</data>
-			<key>hash2</key>
-			<data>
-			pNGoc8Omi1Q7fyo3tX9f9QQD+3bPNkeRj0/N1hb+Cmw=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

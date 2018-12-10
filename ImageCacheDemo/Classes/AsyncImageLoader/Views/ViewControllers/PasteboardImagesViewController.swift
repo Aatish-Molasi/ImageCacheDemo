@@ -5,6 +5,7 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
     var pinImagesTable: UITableView
     var refreshControl: UIRefreshControl
     var pinManager: PinManager
+    var currentPage = 1
 
     var pins:[Pin] = []
 
@@ -54,20 +55,23 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //TODO: maybe move this to the view initializers
         self.fetchPins()
     }
 
     @IBAction func fetchPins() {
-        self.pinManager.getPins { (pins, error) in
+        self.pinManager.getPins(page: currentPage) { (pins, error) in
+            if error != nil {
+                DispatchQueue.main.async {
+                    self.refreshControl.endRefreshing()
+                    self.showError(title: "Error", message: "Unable to fetch images")
+                }
+            }
             guard let pins = pins else {
                 return
             }
-            self.pins = pins
-            self.pins.append(contentsOf: pins)
-            self.pins.append(contentsOf: pins)
             self.pins.append(contentsOf: pins)
             DispatchQueue.main.async {
+                self.refreshControl.endRefreshing()
                 self.pinImagesTable.reloadData()
             }
         }
@@ -76,6 +80,10 @@ class PasteboardImagesViewController: BaseViewController, ViewSetupProtocol {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+
+    func loadMore() {
+        //TODO: Implement the logic to load more data
+    }
 }
 
 extension PasteboardImagesViewController: UITableViewDataSource, UITableViewDelegate {
@@ -83,6 +91,10 @@ extension PasteboardImagesViewController: UITableViewDataSource, UITableViewDele
         if let cell = tableView.dequeueReusableCell(withIdentifier: PinCell.getCellIdentifier()) as? PinCell {
             let currentPin = pins[indexPath.row]
             cell.updateData(pin: currentPin)
+            if indexPath.row == pins.count - 1 {
+                self.loadMore()
+            }
+
             return cell
         }
 

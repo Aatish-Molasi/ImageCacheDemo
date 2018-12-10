@@ -3,7 +3,7 @@ import Foundation
 class PinManager {
     static let sharedManager = PinManager()
 
-    func getPins(completion: @escaping ([Pin]?, Error?)->()) {
+    func getPins(page: Int, completion: @escaping ([Pin]?, Error?)->()) {
         if let url = URL(string:"http://pastebin.com/raw/wgkJgazE") {
             let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
                 if error != nil {
