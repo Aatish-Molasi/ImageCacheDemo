@@ -52,10 +52,7 @@ class PinManagerTests: XCTestCase {
             if let theJSONData = try?  JSONSerialization.data(
                 withJSONObject: PayloadStub.payloadWithData,
                 options: .prettyPrinted
-                ),
-                let theJSONText = String(data: theJSONData,
-                                         encoding: String.Encoding.ascii) {
-                print("JSON string = \n\(theJSONText)")
+                ) {
                 completionHandler!(theJSONData, mockResponse.urlResponse, mockResponse.error)
             }
         }

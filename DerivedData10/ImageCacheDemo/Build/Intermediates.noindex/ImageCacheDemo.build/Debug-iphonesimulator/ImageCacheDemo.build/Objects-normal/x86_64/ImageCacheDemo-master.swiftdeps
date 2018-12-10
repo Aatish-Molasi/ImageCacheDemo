@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "0c50e2401e886317aed51220e89fa60e"
-build_time: [1544434686, 232629000]
+build_time: [1544452101, 702305000]
 inputs:
   "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Models/Catergory.swift": [1544354013, 0]
   "/Users/aatish.molasi/Documents/Development/iOs/mindvalley/ImageCacheDemo/ImageCacheDemo/Classes/AsyncImageLoader/Utils/PasteboardUtil.swift": [1495967029, 0]

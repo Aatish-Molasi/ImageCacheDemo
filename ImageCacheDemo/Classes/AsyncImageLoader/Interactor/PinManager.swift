@@ -12,7 +12,6 @@ class PinManager {
         if let url = URL(string:"http://pastebin.com/raw/wgkJgazE") {
             let task = self.urlSession.dataTask(with: url) { (data, response, error) in
                 if error != nil {
-                    print("Fetch operation failed with error : \(String(describing: error))")
                     completion(nil, error)
                 }
                 do {
