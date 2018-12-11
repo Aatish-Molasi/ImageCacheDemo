@@ -7,7 +7,7 @@ internal struct DownloadedContent: Hashable {
     }
     
     static func ==(lhs: DownloadedContent, rhs: DownloadedContent) -> Bool {
-        return lhs.contentUrl == rhs.contentUrl
+        return lhs.contentUrl.hashValue == rhs.contentUrl.hashValue
     }
     
     var contentUrl: String
@@ -34,9 +34,12 @@ internal class ContentCacheManager {
 
     func downloadedContent(content: Data, url:URL, cacheType: CacheType) {
         if cacheType == .memory {
-            cachedContent[url.absoluteString] = DownloadedContent(url: url.absoluteString, data: content)
-            if self.cachedContent.count > cacheSize {
-                self.removeAppropriateImage()
+            DispatchQueue.global(qos: .background).async {
+                print("This is download url: \(url)")
+                self.cachedContent[url.absoluteString] = DownloadedContent(url: url.absoluteString, data: content)
+                if self.cachedContent.count > self.cacheSize {
+                    self.removeAppropriateImage()
+                }
             }
         }
     }
@@ -51,9 +54,11 @@ internal class ContentCacheManager {
     
     //We can change the logic to something more complex here and factor in things like frequency of use and size of asset among other things
     private func removeAppropriateImage() {
-        if let lastUsed = self.cachedContent.values.max(by: {$0.lastRequestedTime > $1.lastRequestedTime}) {
-            self.cachedContent = self.cachedContent.filter {
-                $0.value != lastUsed
+        DispatchQueue.global(qos: .background).async {
+            if let lastUsed = self.cachedContent.values.max(by: {$0.lastRequestedTime > $1.lastRequestedTime}) {
+                self.cachedContent = self.cachedContent.filter {
+                    $0.value != lastUsed
+                }
             }
         }
     }
