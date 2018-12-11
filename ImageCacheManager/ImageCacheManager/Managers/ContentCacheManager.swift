@@ -35,7 +35,6 @@ internal class ContentCacheManager {
     func downloadedContent(content: Data, url:URL, cacheType: CacheType) {
         if cacheType == .memory {
             DispatchQueue.global(qos: .background).async {
-                print("This is download url: \(url)")
                 self.cachedContent[url.absoluteString] = DownloadedContent(url: url.absoluteString, data: content)
                 if self.cachedContent.count > self.cacheSize {
                     self.removeAppropriateImage()
