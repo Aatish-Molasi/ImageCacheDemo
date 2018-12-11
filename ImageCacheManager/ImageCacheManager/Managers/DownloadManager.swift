@@ -63,8 +63,12 @@ public class DownloadManager: NSObject, URLSessionDelegate {
     }
 
     func downloadFromUrl(url : URL, cacheType: CacheType, completed completedBlock: DownloadCompletionBlock?) -> DownloadRequest {
+        return self.downloadFromUrl(url: url, cacheType: cacheType, queue: DispatchQueue.global(qos: .userInitiated), completed: completedBlock)
+    }
+
+    func downloadFromUrl(url : URL, cacheType: CacheType, queue: DispatchQueue, completed completedBlock: DownloadCompletionBlock?) -> DownloadRequest {
         let downloadManager = DownloadRequest(url: url, completionBlock: completedBlock, downloadManager: self)
-        self.downloadFromUrl(url: url, cacheType: cacheType, manager: downloadManager)
+        self.downloadFromUrl(url: url, cacheType: cacheType, manager: downloadManager, queue: queue)
         return downloadManager
     }
 
